@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Cadastro de nomes</h1>
+        <input type="text" id="inputFrequecie" value="87.5" />
+        <br />
+        <!-- <div style="position:relative; margin:auto; width:90%">
+                <span style="position:absolute; color:red; border:1px solid blue; min-width:100px;">
+                <span id="myValue"></span>
+                </span>
+                <input type="range" id="myRange" max="1000" min="0" style="width:80%">
+              </div>
+               -->
+        <input type="range" max="108" min="87.5" step="0.1" id="rangeFrequecie" value="87.5" list="tickmarks"/>
+        <datalist id="tickmarks">
+            <option value="87.5" label="0%">
+            <option value="97.8">
+            <option value="108" label="100%">
+        </datalist>
+        <div class="podcast">
+            Nenhum Podcast encontrado.
+        </div>
+    </div>
+
+    <script defer src="./js/podcast.js"></script>
+    <script defer src="./js/script.js"></script>
+</body>
+
+</html>

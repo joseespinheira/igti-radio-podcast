@@ -1,0 +1,28 @@
+.content{
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+#inputFrequecie{
+    width: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logoPodcast{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#rangeFrequecie{
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+
+.podcast{
+    border: 1px solid;
+    width: 300px;
+}
